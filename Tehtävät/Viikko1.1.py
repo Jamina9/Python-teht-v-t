@@ -15,5 +15,15 @@ Pinta_ala = Kanta*Korkeus
 print("pinta_ala",Pinta_ala)
 print("piiri",Piiri)
 
+Luku1 = int(input("Anna Luku1:"))
+Luku2 = int(input("Anna Luku2:"))
+Luku3 = int(input("Anna Luku3:"))
+summa = Luku1 + Luku2 + Luku3
+tulo = Luku1 * Luku2 * Luku3
+keskiarvo = summa / 3
+print(summa)
+print(tulo)
+print(keskiarvo)
+
 
 
