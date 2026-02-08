@@ -25,5 +25,18 @@ print(summa)
 print(tulo)
 print(keskiarvo)
 
+Leiviska = int(input("Anna Leiviska:"))
+Naula = int(input("Anna Naula:"))
+Luoti = int(input("Anna Luoti:"))
+Luodit_yht = Leiviska * 20*32 + Naula * 32 + Luoti
+Grammat_yht = Luodit_yht * 13.3
+Kilogrammat = int(Grammat_yht // 1000)
+Grammat = Grammat_yht - Kilogrammat * 1000
+print(Grammat)
+print(Kilogrammat)
+
+
+
+
 
 
