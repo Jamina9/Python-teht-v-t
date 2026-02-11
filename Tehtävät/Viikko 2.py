@@ -1,8 +1,11 @@
 numero = int(input("anna joku luku"))
 if numero < 0:
-        print(numero * -1)
+        numero = numero * -1
+        print("Numero on itseisarvo",numero)
+
 else:
-        print(numero)
+        print("Numeron itseisarvo on", numero)
+
 
 
 
