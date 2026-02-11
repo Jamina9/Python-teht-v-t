@@ -1,14 +1,9 @@
-ika = int(input("Kuinka vanha olet?"))
-if ika >= 65:
-    print("Olet eläkkeellä!")
+numero = int(input("anna joku luku"))
+if numero >= 0:
+    print("numero on positiivinen")
 
-elif ika >= 18:
-    print("olet työikäinen")
-
-elif ika >= 7:
-    print("olet kouluikäinen")
+elif numero < 0:
+    print("numero on negatiivinen")
 
 else:
-    print("olet lapsi")
-
-
+    print("annoit nolla")
