@@ -1,0 +1,12 @@
+a = True
+b = False
+
+if a and b:
+    print("molemmat on totta")
+
+if a or b:
+    print("Toinen on totta")
+
+if not a and b:
+    print("Kumpikaan ei ole totta")
+
