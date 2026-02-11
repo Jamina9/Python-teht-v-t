@@ -1,9 +1,10 @@
 numero = int(input("anna joku luku"))
 if numero >= 0:
-    print("numero on positiivinen")
-
-elif numero < 0:
-    print("numero on negatiivinen")
+    if numero % 2 == 0:
+        print("numero oli parillinen")
+    else:
+        print("Numero oli pariton")
 
 else:
-    print("annoit nolla")
+    print("Numero oli negatiivinen tai nolla")
+
