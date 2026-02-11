@@ -1,12 +1,6 @@
-a = True
-b = False
-
-if a and b:
-    print("molemmat on totta")
-
-if a or b:
-    print("Toinen on totta")
-
-if not a and b:
-    print("Kumpikaan ei ole totta")
+numero = float(input("Anna joku numero:"))
+if numero > 0:
+    print("Numero on positiivinen")
+else:
+    print("Numero on negatiivinen")
 
