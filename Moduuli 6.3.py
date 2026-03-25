@@ -12,3 +12,4 @@ tulos = laske_summa(luvut)
 print(tulos)
 
 
+
