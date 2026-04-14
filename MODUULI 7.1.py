@@ -1,0 +1,21 @@
+nimet = set()
+
+while True:
+    nimi = input("Syötä nimi:")
+
+    if nimi == "":
+        break
+    if nimi in nimet:
+        print("Aikaisemmin syötetty nimi.")
+
+    else:
+        print("Uusi nimi.")
+        nimet.add(nimi)
+
+
+print("Syötetyt nimet")
+for nimi in nimet:
+    print(nimi)
+
+
+
